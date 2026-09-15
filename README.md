@@ -1,23 +1,25 @@
-# SHARK
+# Market Model Evaluation Harness
 
 ## Scientific quantitative research infrastructure
 
-SHARK is a short-horizon quantitative research laboratory for liquid U.S. equities. Its purpose is to discover measurable market structure, attempt to falsify it, preserve the scientific record, and advance only the effects that survive increasingly difficult tests.
+This is a short-horizon quantitative research laboratory for liquid U.S. equities. Its purpose is to discover measurable market structure, attempt to falsify it, preserve the scientific record, and advance only the effects or methods that survive increasingly difficult tests.
 
-The implementation and active research programme remain private. This case study presents the architecture, operating rules, selected completed research, and current scientific boundaries.
+The implementation and active research programme remain private. This case study presents the architecture, operating rules, selected completed research, publication work, and current scientific boundaries.
+
+This is independent research infrastructure, not an operating investment business or a production trading system.
 
 ## My role
 
-I own the research thesis, experimental rules, information boundaries, architecture constraints, acceptance criteria, and research decisions for SHARK. I review implementation and evidence against those rules, including whether a result is promoted, narrowed, rejected, or closed.
+I own the research thesis, experimental rules, information boundaries, architecture constraints, acceptance criteria, and research decisions for the laboratory. I review implementation and evidence against those rules, including whether a result is promoted, narrowed, rejected, corrected, or closed.
 
 **Period:** active quantitative research programme, 2026.  
-**Current status:** the local research laboratory is operational, the 200-equity frozen baseline is represented in canonical PostgreSQL memory, the OCaml research engine is executable, and scientific-lifecycle integrity is enforced by deterministic repository-wide verification. SHARK is research infrastructure, not a production trading system.
+**Current status:** the local research laboratory is operational, the 200-equity frozen baseline is represented in canonical PostgreSQL memory, the OCaml research engine is executable, scientific-lifecycle integrity is enforced by deterministic repository-wide verification, and the research programme has progressed into prospectively registered statistical-methodology and publication work. This remains research infrastructure, not a production trading system.
 
 ## Research objective
 
-The long-run objective is to build a research process capable of repeatedly discovering, falsifying, validating, monitoring, and retiring independent market effects.
+The long-run objective is to build a research process capable of repeatedly discovering, falsifying, validating, monitoring, and retiring independent market effects and statistical methods.
 
-Models are disposable. Individual hypotheses are disposable. A valid effect may also be temporary. The durable asset is the process that can distinguish an interesting observation from a reproducible state, a predictive effect, and eventually an economically executable source of alpha.
+Models are disposable. Individual hypotheses are disposable. A valid effect may also be temporary. The durable asset is the process that can distinguish an interesting observation from a reproducible state, a predictive effect, a valid statistical instrument, and eventually an economically executable source of alpha.
 
 ```text
 observe structure
@@ -25,7 +27,7 @@ observe structure
 -> attack the method
 -> freeze the experiment
 -> test independent evidence
--> accept, narrow, or reject
+-> accept, narrow, correct, or reject
 -> test prediction
 -> test economics
 -> monitor decay
@@ -72,7 +74,7 @@ At research time `T`, the experiment receives only information available at or b
 
 A research programme can become unreliable even when every individual file is preserved. The difficult problem is remembering which result was provisional, which evidence has already been exposed, which interpretation was later corrected, what a branch actually ruled out, and what remains genuinely untested.
 
-SHARK therefore maintains a deterministic, Git-native scientific memory called **SHARK OS**. It records six distinct object classes:
+The laboratory therefore maintains a deterministic, Git-native scientific memory layer. It records six distinct object classes:
 
 ```text
 Hypothesis       the question being asked
@@ -85,9 +87,19 @@ EvidenceExposure which evidence has already been spent
 
 Machine output and scientific conclusion are deliberately separate. Evidence that has been inspected cannot later be presented as untouched confirmation. A closed branch records both what was ruled out and what remains untested.
 
-Before new work advances, SHARK can render a deterministic Context Pack from this graph. The pack reconstructs relevant lineage, prior results, lessons, evidence exposure, closure state, and unresolved questions without semantic search, embeddings, an LLM, market-data access, or network access.
+Before new work advances, the system can render a deterministic Context Pack from this graph. The pack reconstructs relevant lineage, prior results, lessons, evidence exposure, closure state, and unresolved questions without semantic search, embeddings, an LLM, market-data access, or network access.
 
 The lifecycle is executable. Repository-wide verification fails closed when scientific state is internally inconsistent, evidence authority is invalid, or frozen experiment identity has been altered.
+
+## Current publication work
+
+The research programme has progressed beyond infrastructure and market-candidate screening into a prospectively registered statistical-methodology paper on **studentizing a double cross-fit estimator of expected conditional covariance with fixed-k nearest neighbours**.
+
+The current fixed-k studentizer paper is preserved as **Baseline V1** and is the active publication priority. Its registered N4 validation has been accepted within the research process, while an earlier temporal-transport research identity remains preserved separately rather than being rewritten as if it never existed.
+
+The manuscript has undergone multiple adversarial and reproducibility passes, including a comprehensive sixth re-audit covering registered-table fidelity, numerical rounding, citation scope, reproduction disclosures, proof presentation, production formatting, embedded fonts, and residual-diff review. Corrections are recorded append-only when they affect historical interpretation. The research lineage explicitly distinguishes the active fixed-k paper from the paused earlier programme so one registration cannot be used as authority for another.
+
+That publication work is important because the same governance rules used for market research are being applied to statistical research: freeze identities, separate prospective from post-hoc evidence, preserve exposed evidence, record corrections, and refuse to turn a repaired experiment into an untouched one.
 
 ## Selected research record
 
@@ -116,27 +128,27 @@ A plausible idea does not earn protection from a failed test.
 
 ## Research stance
 
-SHARK is explicitly cumulative. Established quantitative finance, statistics, mathematics, econometrics, and mathematical physics are treated as prior art, baselines, numerical references, and adversaries.
+The programme is explicitly cumulative. Established quantitative finance, statistics, mathematics, econometrics, and mathematical physics are treated as prior art, baselines, numerical references, and adversaries.
 
 Potential tools include geometry, stochastic processes, nonlinear dynamics, rough paths, information theory, topology, optimal transport, spectral methods, statistical mechanics, control theory, optimization, and machine learning. No framework receives authority from elegance or novelty alone.
 
 The relevant question is whether a causally valid construction explains residual structure that survives simpler models, hostile nulls, independent evidence, and economic constraints.
 
-Public literature narrows the search space. Where strong prior work already explains a phenomenon, SHARK should reproduce or benchmark it rather than rename it. Novelty, if it emerges, must come from a reproducible empirical effect, method, or combination that remains unexplained after comparison with the existing literature.
+Public literature narrows the search space. Where strong prior work already explains a phenomenon, the laboratory should reproduce or benchmark it rather than rename it. Novelty, if it emerges, must come from a reproducible empirical effect, method, or combination that remains unexplained after comparison with the existing literature.
 
 ## Research frontier
 
-The programme is extending beyond aggregate bar structure toward richer questions about market state, liquidity, path dependence, cross-sectional interaction, and conditional future distributions.
+The programme is extending beyond aggregate bar structure toward richer questions about market state, statistical calibration, liquidity, path dependence, cross-sectional interaction, conditional future distributions, and research-method validity.
 
-The working premise is not that complexity creates alpha. It is that state-dependent interactions across market information may contain residual structure that simpler representations do not resolve.
+The working premise is not that complexity creates alpha. It is that state-dependent interactions across market information may contain residual structure that simpler representations do not resolve, and that any claimed structure must be evaluated with instruments that themselves survive hostile calibration.
 
 Active hypotheses, exact statistics, thresholds, data partitions, and prospective trading mechanisms remain private until they are scientifically closed or can be disclosed without compromising ongoing work.
 
 ## Validation model
 
-SHARK's local gate contains more than one thousand automated tests across mathematical, storage, research-memory, database, and scientific-lifecycle surfaces, plus dedicated Pattern Engine proofs.
+The local gate contains more than one thousand automated tests across mathematical, storage, research-memory, database, and scientific-lifecycle surfaces, plus dedicated Pattern Engine proofs and paper-specific reproducibility checks.
 
-The important property is not the count. The gate tests failure modes that can change scientific meaning: no-lookahead boundaries, immutable evidence, canonical database provenance, exact experiment identity, deterministic randomization, result reconstruction, database failure and recovery, evidence exposure, Context Pack determinism, scientific freeze integrity, and fail-closed closure rules.
+The important property is not the count. The gate tests failure modes that can change scientific meaning: no-lookahead boundaries, immutable evidence, canonical database provenance, exact experiment identity, deterministic randomization, result reconstruction, database failure and recovery, evidence exposure, Context Pack determinism, scientific freeze integrity, registered-reporting fidelity, and fail-closed closure rules.
 
 ## Economic boundary
 
@@ -156,8 +168,8 @@ historical structure
 -> live evidence
 ```
 
-SHARK currently makes no public claim of executable alpha, profitability, or production trading authority.
+The laboratory currently makes no public claim of executable alpha, profitability, or production trading authority.
 
-The present claim is narrower: the laboratory is built to make unsupported conclusions difficult to preserve and useful failures difficult to forget.
+The present claim is narrower: the research system is built to make unsupported conclusions difficult to preserve and useful failures difficult to forget.
 
 [Architecture](ARCHITECTURE.md) · [Technical decisions](TECHNICAL_DECISIONS.md) · [Validation](VALIDATION.md) · [Back to profile](https://github.com/Andy11-cpu)
