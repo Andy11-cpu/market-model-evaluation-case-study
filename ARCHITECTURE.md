@@ -1,8 +1,8 @@
-# SHARK Architecture
+# Market Model Evaluation Harness Architecture
 
 ## Research architecture objective
 
-SHARK separates acquisition evidence, canonical memory, point-in-time research views, mathematical computation, methodological validation, scientific decisions, and research memory.
+The research harness separates acquisition evidence, canonical memory, point-in-time research views, mathematical computation, methodological validation, scientific decisions, and research memory.
 
 The purpose of that separation is to preserve causal information boundaries and make the scientific state of the programme reconstructable after individual experiments have succeeded, failed, or changed interpretation.
 
@@ -54,11 +54,11 @@ A research calculation receives only information available inside its declared b
 
 Universe membership is an identified research object. Experiments bind to an exact universe version rather than a mutable ticker list.
 
-This does not by itself eliminate historical survivorship bias. A point-in-time 2026 universe applied to earlier bars remains a study of the historical paths of names selected in 2026. SHARK records that limitation explicitly instead of relabeling the panel as contemporaneous historical membership.
+This does not by itself eliminate historical survivorship bias. A point-in-time 2026 universe applied to earlier bars remains a study of the historical paths of names selected in 2026. The research harness records that limitation explicitly instead of relabeling the panel as contemporaneous historical membership.
 
 ## Mathematical layer
 
-SHARK uses typed, deterministic mathematical components and bounded specialist tooling rather than notebook state as research authority.
+The research harness uses typed, deterministic mathematical components and bounded specialist tooling rather than notebook state as research authority.
 
 The current system includes sequence and geometric representations, retrospective and cross-sectional interrogation, permutation and bootstrap procedures, deterministic randomization, and experiment-specific statistical machinery.
 

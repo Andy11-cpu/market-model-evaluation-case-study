@@ -1,6 +1,6 @@
-# SHARK Validation
+# Market Model Evaluation Harness Validation
 
-SHARK's validation model is designed to make false confidence expensive.
+The research harness's validation model is designed to make false confidence expensive.
 
 ## Baseline data integrity
 
@@ -36,7 +36,7 @@ Research readers require explicit time bounds and, for universe-level work, an e
 
 An experiment receives only the data permitted by its declared measurement context. Future observations cannot alter the representation or candidate that existed at cutoff `T`.
 
-The current Liquid-200 universe is itself a point-in-time object. Applying its membership to earlier history does not create a survivorship-free historical universe, and SHARK does not make that claim.
+The current Liquid-200 universe is itself a point-in-time object. Applying its membership to earlier history does not create a survivorship-free historical universe, and The research harness does not make that claim.
 
 ## Scientific lifecycle controls
 
@@ -90,7 +90,7 @@ The failure is now retained as a methodological lesson: subsequent statistical i
 
 ## Corrections are part of the scientific record
 
-SHARK does not require the first interpretation or first implementation to remain correct.
+The research harness does not require the first interpretation or first implementation to remain correct.
 
 Examples from the completed programme include:
 
@@ -117,7 +117,7 @@ This reduces a common research failure mode: repeating an old mistake or present
 
 ## Economic validation remains downstream
 
-SHARK distinguishes at least these claims:
+The research harness distinguishes at least these claims:
 
 1. A historical structure can be reconstructed.
 2. The structure survives independent statistical controls.
@@ -127,4 +127,4 @@ SHARK distinguishes at least these claims:
 
 The current public record does not collapse those stages into one backtest metric.
 
-SHARK makes no public claim that the completed research establishes executable alpha. A future economic claim would have to survive the costs, liquidity, latency, hedging, capacity, and implementation constraints relevant to the instrument used.
+The research harness makes no public claim that the completed research establishes executable alpha. A future economic claim would have to survive the costs, liquidity, latency, hedging, capacity, and implementation constraints relevant to the instrument used.

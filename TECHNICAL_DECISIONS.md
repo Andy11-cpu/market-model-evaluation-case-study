@@ -1,4 +1,4 @@
-# SHARK Technical Decisions
+# Market Model Evaluation Harness Technical Decisions
 
 ## 1. Freeze evidence before interpretation
 
@@ -36,7 +36,7 @@ Prediction is a valid experiment, but it does not substitute for evidence that t
 
 ## 5. Treat prior research as infrastructure
 
-SHARK builds on established quantitative finance, statistics, mathematics, econometrics, and mathematical physics.
+The research programme builds on established quantitative finance, statistics, mathematics, econometrics, and mathematical physics.
 
 Published methods are used as baselines, numerical references, prior art, and adversaries. Reimplementing a known idea does not create novelty. A new claim must survive comparison with the strongest relevant existing explanation.
 
