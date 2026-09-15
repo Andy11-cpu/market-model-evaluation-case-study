@@ -36,7 +36,7 @@ Research readers require explicit time bounds and, for universe-level work, an e
 
 An experiment receives only the data permitted by its declared measurement context. Future observations cannot alter the representation or candidate that existed at cutoff `T`.
 
-The current Liquid-200 universe is itself a point-in-time object. Applying its membership to earlier history does not create a survivorship-free historical universe, and The research harness does not make that claim.
+The current Liquid-200 universe is itself a point-in-time object. Applying its membership to earlier history does not create a survivorship-free historical universe, and the research harness does not make that claim.
 
 ## Scientific lifecycle controls
 
